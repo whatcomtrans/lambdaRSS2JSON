@@ -1,0 +1,22 @@
+{
+  "name": "lambdarss2json",
+  "version": "1.0.0",
+  "description": "An AWS Lambda function that works with AWS API Gateway to parse an RSS feed and return JSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whatcomtrans/lambdaRSS2JSON.git"
+  },
+  "author": "R. Josh Nylander at Whatcomt Transportation Authority",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whatcomtrans/lambdaRSS2JSON/issues"
+  },
+  "homepage": "https://github.com/whatcomtrans/lambdaRSS2JSON#readme",
+  "dependencies": {
+    "rssparser2": "git+https://github.com/whatcomtrans/node-rssparser2.git"
+  }
+}
